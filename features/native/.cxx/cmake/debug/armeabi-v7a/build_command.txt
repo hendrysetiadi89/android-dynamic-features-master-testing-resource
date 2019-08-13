@@ -1,0 +1,15 @@
+Executable : /Users/nakama/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/src/main/cpp
+-B/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cmake/debug/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-24
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/build/intermediates/cmake/debug/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/nakama/Library/Android/sdk/ndk-bundle
+-DCMAKE_CXX_FLAGS=-std=c++11
+-DCMAKE_TOOLCHAIN_FILE=/Users/nakama/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/nakama/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+

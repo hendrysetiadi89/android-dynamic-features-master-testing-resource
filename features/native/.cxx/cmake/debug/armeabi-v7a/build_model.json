@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/nakama/Desktop/android-dynamic-features-master testing resource",
+      "sdkFolder": "/Users/nakama/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/build/intermediates",
+      "gradleModulePathName": ":features:native",
+      "moduleRootFolder": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native",
+      "makeFile": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/src/main/cpp/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/.cxx",
+      "cxxFolder": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx",
+      "ndkFolder": "/Users/nakama/Library/Android/sdk/ndk-bundle",
+      "ndkVersion": "17.1.4828580",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-std\u003dc++11"
+    ],
+    "variantName": "debug",
+    "soFolder": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/build/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 24,
+  "cxxBuildFolder": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cmake/debug/armeabi-v7a",
+  "jsonFile": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cxx/debug/armeabi-v7a",
+  "objFolder": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/build/intermediates/cmake/debug/obj/armeabi-v7a",
+  "buildCommandFile": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cmake/debug/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cmake/debug/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cmake/debug/armeabi-v7a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cxx/debug/armeabi-v7a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cxx/debug/armeabi-v7a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cxx/debug/armeabi-v7a/build_generation_state.json",
+    "cacheKeyFile": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cxx/debug/armeabi-v7a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cxx/debug/armeabi-v7a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cxx/debug/armeabi-v7a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cxx/debug/armeabi-v7a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/nakama/Desktop/android-dynamic-features-master testing resource/features/native/.cxx/cmake/debug/armeabi-v7a/compile_commands.json"
+}
