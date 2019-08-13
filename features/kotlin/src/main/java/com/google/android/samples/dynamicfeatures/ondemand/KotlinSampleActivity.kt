@@ -46,7 +46,13 @@ class KotlinSampleActivity : BaseSplitActivity() {
 
     override fun onBackPressed() {
         super.onBackPressed()
-        Toast.makeText(this, getString(R.string.exiting), Toast.LENGTH_LONG).show()
+        var str: String? = ""
+        try {
+            str = getString(R.string.test_fragment)
+        } catch (e: Exception) {
+            str = "Resource not found exception"
+        }
+        Toast.makeText(this, str, Toast.LENGTH_LONG).show()
     }
 
 }

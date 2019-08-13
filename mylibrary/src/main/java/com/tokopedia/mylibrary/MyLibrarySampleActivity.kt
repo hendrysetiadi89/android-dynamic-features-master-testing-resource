@@ -17,6 +17,7 @@
 package com.tokopedia.mylibrary
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 /** A simple Activity displaying some text, written in Kotlin. */
@@ -25,7 +26,7 @@ class MyLibrarySampleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_library)
-
+        Toast.makeText(this, getString(R.string.entering_library), Toast.LENGTH_LONG).show()
     }
 
 }

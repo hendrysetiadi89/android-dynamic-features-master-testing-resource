@@ -15,7 +15,11 @@ class KotlinSampleFragment : Fragment() {
     var str: String? = ""
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        str = getString(R.string.test_fragment)
+        try {
+            str = getString(R.string.test_fragment)
+        } catch (e:Exception) {
+            str = "Resource not found exception"
+        }
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
