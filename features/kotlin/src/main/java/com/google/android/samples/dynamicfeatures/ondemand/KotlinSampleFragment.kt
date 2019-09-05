@@ -16,7 +16,7 @@ class KotlinSampleFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         try {
-            str = getString(R.string.test_fragment)
+            str = context?.applicationContext?.getString(R.string.test_fragment)
         } catch (e:Exception) {
             str = "Resource not found exception"
         }

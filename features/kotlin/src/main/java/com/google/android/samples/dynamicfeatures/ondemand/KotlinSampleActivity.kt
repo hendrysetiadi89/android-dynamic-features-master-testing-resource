@@ -32,7 +32,7 @@ class KotlinSampleActivity : BaseSplitActivity() {
         setContentView(R.layout.activity_feature_kotlin)
         Toast.makeText(this, KotlinSampleActivity::class.java.name, Toast.LENGTH_LONG).show()
         val button = findViewById<Button>(R.id.button)
-        button.setText(getString(R.string.go_to_act_b_module))
+        button.setText(applicationContext.getString(R.string.go_to_act_b_module))
         button.setOnClickListener {
             startActivity(Intent(this, KotlinSampleBActivity::class.java))
         }
@@ -48,7 +48,7 @@ class KotlinSampleActivity : BaseSplitActivity() {
         super.onBackPressed()
         var str: String? = ""
         try {
-            str = getString(R.string.test_fragment)
+            str = applicationContext.getString(R.string.test_fragment)
         } catch (e: Exception) {
             str = "Resource not found exception"
         }

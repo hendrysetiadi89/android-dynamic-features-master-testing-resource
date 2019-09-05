@@ -26,6 +26,11 @@ class MyLibrarySampleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_library)
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction().replace(R.id.container,
+                KotlinSampleWebViewFragment(),
+                "a").commit()
+        }
         Toast.makeText(this, getString(R.string.entering_library), Toast.LENGTH_LONG).show()
     }
 
